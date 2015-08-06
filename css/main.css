@@ -1,0 +1,347 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	font-family: 'Titillium Web', Helvetica, Arial, sans-serif;
+	font-size: 14px;
+	font-weight: 300;
+	color: #555555;
+}
+
+h1, h2, h3 {
+	font-family: Teko, Helvetica, Arial, sans-serif;
+	font-size: 40px;
+	text-transform: uppercase;
+	color: #000;
+
+}
+
+h1 {
+	color: #fff;
+	font-size: 120px;
+	letter-spacing: 9px;
+	line-height: 1.15em;
+}
+
+a {
+	font-family: Teko, Helvetica, Arial, sans-serif;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+
+.top_bar {
+	width: 100%;
+	height: 70px;
+	background-color: #fff;
+	position: fixed;
+	z-index: 9999;
+
+}
+
+.container {
+	max-width: 1170px;
+	margin: 0 auto;
+	width: 95%;
+	height: 100%;
+}
+
+.group:after {
+	content: "";
+ 	display: table;
+ 	clear: both;
+}
+
+.logo {
+	float: left;
+	height: 70px;
+	width: 70px;
+}
+
+nav.navigation {
+	float: right;
+
+	
+}
+
+nav.navigation a {
+	font-family: 'Titillium Web', Helvetica, Arial, sans-serif;
+	font-size: 16px;
+	color: #7f7f7f;
+	text-transform: none;
+
+}
+
+nav.navigation li {
+	display: inline-block;
+	padding-top: 29px;
+	margin-right: 42px;
+	padding-bottom: 22px;
+}
+
+nav.navigation li:last-child {
+	margin-right: 0;
+}
+
+nav.navigation li.active {
+	color: #f63c3c;
+	border-bottom: 4px solid #f63c3c;
+}
+
+nav.navigation li.active a {
+	color: #f63c3c;
+}
+
+.hero {
+	background: url(../img/background.jpg) center center no-repeat;
+	background-size: cover;
+	height: 100vh;
+	position: relative;
+	min-height: 1012px;
+}
+
+
+.title {
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+	text-align: center;
+	margin-top: 70px;
+	width: 78%;
+
+}
+
+.title p {
+	color: #dbd7d3;
+	font-size: 22px;
+	width: 70%;
+	margin: 50px auto 25px;
+	/*opacity: 0.7;*/
+	line-height: 1.2em;
+}
+
+.hero nav {
+	position: absolute;
+	left: 50%;
+	bottom: 20px;
+	transform: translateX(-50%);
+}
+
+.hero nav ul {
+
+
+}
+
+.hero nav ul li {
+	display: inline-block;
+	width: 40px;
+	height: 4px;
+	background-color: rgba(255, 255, 255, 0.22);
+	margin-right: 7px;
+
+}
+
+.hero nav ul li:last-child {
+	margin-right: 0;
+}
+
+.hero nav ul li.active {
+	background-color: rgba(255, 255, 255, 1);
+}
+
+a.explore {
+	display: inline-block;
+	font-size: 20px;
+	color: #000;
+	background-color: #fff;
+	transition: all 0.3s ease-out;
+	padding: 11px 50px 8px 50px;
+}
+
+a.explore:hover {
+	color: #fff;
+	background: #f63c3c;
+}
+
+.work h2 {
+	text-align: center;
+	margin: 51px 0 55px;
+
+}
+
+article {
+	float: left;
+	width: 48%;
+	margin: 10px;
+}
+
+figure {
+	margin-bottom: 23px;
+}
+
+figure img {
+	width: 100%;
+	height: auto;
+}
+
+figure:hover {
+	background: url(../img/projects/stuhrllingoverlay.jpg) center center no-repeat;
+}
+
+
+
+article h3, article p {
+	text-align: center;
+}
+
+article:nth-child(1) {
+	margin-left: 15px;
+
+}
+
+article h3 {
+	letter-spacing: 3px;
+	font-size: 30px;
+}
+
+
+article p {
+	color: #8c8c8c;
+	width: 90%;
+	margin: 0 auto;
+}
+
+/*article:nth-child(5n-2) {
+	margin-bottom: 58px;
+
+}*/
+
+.show_more {
+	width: 10%;
+	margin: 0 auto 70px;
+}
+
+.show_more a {
+	font-size: 20px;
+	color: #f63c3c;
+	text-decoration: none;
+	border-bottom: 4px solid #f63c3c;
+
+}
+
+.cta {
+	width: 100%;
+	height: 227px;
+	text-align: center;
+	background-color: #f63c3c;
+}
+
+.cta h2  {
+	color: #fff;
+	letter-spacing: 3px;
+	padding-top: 60px;
+	margin-bottom: 21px;
+}
+
+.cta p {
+	color: #fcd2d2;
+}
+
+.cta .button {
+	color: #685157;
+	padding: 12px 75px; 
+	background-color: #fff;
+	font-size: 20px;
+	letter-spacing: 2px;
+	display: block;
+    width: 25%;
+    margin: 20px auto;
+}
+
+.contact {
+	margin-bottom: 80px;
+}
+
+.container h2 {
+	margin-top: 62px;
+}
+
+.container p {
+	margin-bottom: 60px;
+}
+
+/*section.contact {
+	max-width: 1170px;
+	margin: 0 auto;
+}
+
+.container-contact {
+	/*max-width: 1170px;
+	/*margin: 0 auto;*/
+	
+
+}
+
+.social {
+	width: 1170px;
+	margin: 0 auto;
+}
+
+
+.social li {
+	display: inline-block;
+	vertical-align: top;
+	position: relative;
+	width: 270px;
+	height: 195px;
+	background-color: #30282a;
+	text-align: center;
+	color: #fff;
+	margin-right: 20px;
+	padding-bottom: 26px;
+}
+
+.social li:last-child {
+	margin-right: 0;
+}
+
+.social li a {
+	display: block;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	width: 100%;
+	font-size: 30px;
+	text-decoration: none;
+	color: #fff;
+	text-transform: uppercase;
+	-webkit-transform: translate(-50%, -60%);  
+	-moz-transform: translate(-50%, -60%);  
+	-o-transform: translate(-50%, -60%);  
+	transform: translate(-50%, -50%);
+}
+
+.social li i {
+	display: block;
+	text-align: center;
+}
+
+i {
+	padding-bottom: 17px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
